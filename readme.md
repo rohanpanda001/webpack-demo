@@ -1,3 +1,3 @@
-#### Webpack Config
+### Webpack Config
 
 Getting Started
