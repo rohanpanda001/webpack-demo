@@ -1,4 +1,5 @@
 import _ from 'lodash';
+import FormContainer from "./js/components/container/FormContainer.jsx";
 
 function component() {
     let element = document.createElement('div');
@@ -10,3 +11,6 @@ function component() {
   }
   
   document.body.appendChild(component());
+
+  // const wrapper = document.getElementById("create-article-form");
+  // wrapper ? ReactDOM.render(<FormContainer />, wrapper) : false;
